@@ -1,0 +1,3 @@
+Commands Ive used : cd .. , cd , find -user bandit7 -group bandit6 -size 33c 2> dev/null 
+Password obtained : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+Notes : Ran into a problem while doing this level where when I inputted the command  find -user bandit7 -group bandit6 -size 33c 2> dev/null their wasnt an output which led to me reading the description of the level on the bandit game website in detail which led to me realising that it was " somewhere on the server " I had then gone to the root directory and inputted the command which outputted the file ./var/lib/dpkg/info/bandit7.password which had the password inside. 
